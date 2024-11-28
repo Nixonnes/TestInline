@@ -1,0 +1,33 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.wrapper {
+    display:flex;
+    flex-direction: column;
+    height:100vh;
+    font-family: "Lucida Sans Unicode",sans-serif;
+}
+header {
+    display:flex;
+    align-items: center;
+    height:50px;
+    width:100%;
+    background-color: #dcd9d9;
+}
+.logo {
+    margin-left:15%;
+}
+main {
+    flex:1;
+
+}
+.search_input {
+    padding:12px;
+    height:50px;
+    border-radius: 6px;
+    width:54%;
+    background:url("/views/icons/search.png") no-repeat 98% 50%;
+    background-size: 35px;
+}
